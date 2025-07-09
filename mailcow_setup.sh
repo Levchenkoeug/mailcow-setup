@@ -16,8 +16,9 @@ curl -fsSL https://get.docker.com | sh
 sudo systemctl enable --now docker
 
 echo "Установка Docker Compose..."
-sudo curl -sSL "https://github.com/docker/compose/releases/download/$(curl -Ls https://www.servercow.de/docker-compose/latest)/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+curl -sSL https://github.com/docker/compose/releases/download/v$(curl -Ls https://www.servercow.de/docker-compose/latest)/docker-compose-$(uname -s)-$(uname -m) > /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
+
 
 echo "Установка Mailcow..."
 cd /opt
