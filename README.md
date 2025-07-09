@@ -6,9 +6,9 @@ nano setup-mailcow-server.sh
 Вставь туда содержимое выше, нажми Ctrl + O, затем Enter и Ctrl + X.
 
 Сделай исполняемым:
-chmod +x setup-mailcow-server.sh
+chmod +x mailcow_setup.sh
 Запусти:
-./setup-mailcow-server.sh
+./mailcow_setup.sh
 🔐 Рекомендации после установки
 
 Убедись, что DNS-записи настроены (MX, A, SPF, DKIM, DMARC);
