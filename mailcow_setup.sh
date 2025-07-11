@@ -2,7 +2,7 @@
 set -e
 
 # === Настройки пользователя ===
-MAILCOW_HOSTNAME="mail.lptsk.info"         # ← Укажи здесь свой FQDN
+MAILCOW_HOSTNAME="mail.lapitskaya.com"         # ← Укажи здесь свой FQDN
 MAILCOW_TIMEZONE="America/New_York"        # ← Укажи свой часовой пояс
 DISABLE_CLAMAV="y"                         # y или n
 MAILCOW_BRANCH="master"                    # master, nightly, legacy
